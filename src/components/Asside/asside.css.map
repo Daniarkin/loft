@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAC,WAAY;EACpB,UAAU,EAAE,OAAO;CAEtB",
     "sources": [
         "asside.scss"
     ],
