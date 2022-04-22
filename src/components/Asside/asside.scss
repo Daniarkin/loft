@@ -1,5 +1,16 @@
 .asside {
     padding:10px 0 12px ;
-    background: #313131;
+    background: #F9F9F9;
     
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        font-family: 'Roboto';
+    }
+    &:not(:last-child) {
+        margin-right: 28px;
+    }
 }

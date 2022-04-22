@@ -1,12 +1,12 @@
 .header {
     padding: 10px 0 12px;
-    background: #313131;
+    background: #383838;
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    &__header__link {
+    &__link {
         font-family: 'Roboto';
     }
     &:not(:last-child) {
