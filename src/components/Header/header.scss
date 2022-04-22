@@ -1,0 +1,15 @@
+.header {
+    padding: 10px 0 12px;
+    background: #313131;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__header__link {
+        font-family: 'Roboto';
+    }
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+.header {
+  padding: 10px 0 12px;
+  background: #313131;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__header__link {
+  font-family: 'Roboto';
+}
+
+.header:not(:last-child) {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=header.css.map */
