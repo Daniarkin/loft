@@ -1,15 +1,49 @@
 .header {
     padding: 10px 0 12px;
     background: #383838;
+
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    &__link {
         font-family: 'Roboto';
+        
+
     }
-    &:not(:last-child) {
-        margin-right: 30px;
+
+    &__link {
+        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+        color: #ffffff;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+
     }
+
+    &__phone,
+    &__delivery {
+        margin-right: 30px;       
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+
+
+    }
+
+    &__delivery  {
+        background: none;
+        border: none;
+    }
+
+     
+    
+
+
+
 }

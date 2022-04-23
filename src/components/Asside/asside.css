@@ -1,5 +1,25 @@
 .asside {
   padding: 10px 0 12px;
-  background: #313131;
+  background: #F9F9F9;
+}
+
+.asside__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.asside__link {
+  font-family: 'Roboto';
+}
+
+.asside:not(:last-child) {
+  margin-right: 28px;
 }
 /*# sourceMappingURL=asside.css.map */

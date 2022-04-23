@@ -1,16 +1,27 @@
 .asside {
-    padding:10px 0 12px ;
-    background: #F9F9F9;
-    
+    padding: 10px 0 12px;
+    background: #e67070;
+    width: 227px;
+    height: 768px;
+
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    &__link {
         font-family: 'Roboto';
     }
-    &:not(:last-child) {
-        margin-right: 28px;
+
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+        color: #ffffff;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+
+
     }
 }

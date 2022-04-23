@@ -1,42 +1,43 @@
 import React from "react";
+import IconSVG from "../../assets/img/sprite.svg";
 import './asside.scss'
+n
 
-export const Asside = () => {
+export const AssideBar = () => {
   return (
-    <asside className="asside">
+    <div className="asside">
       <div className="container">
         <div className="asside__wrapper">
+
           <div className="asside__menu">
             Меню
-
-            <a href="/">Главная</a>
-            <a href="/">О нас</a>
-            <a href="/">Контакты</a>
+            <a className="asside__link" href="/">Главная</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <use xlinkHref={`${IconSVG}#home`}></use>
+            </svg>
+            <a className="asside__link" href="/">О нас</a>
+            <a className="asside__link" href="/">Контакты</a>
           </div>
-          
-            <div className="asside__category">
-            
-            Категории
 
-            <a href="/">Кухни</a>
-            <a href="/">Спальни</a>
-            <a href="/">Гостинные</a>
-            <a href="/">Прихожие</a>
-            <a href="/">Офисная мебель</a>
-            <a href="/">Детская</a>
-            <a href="/">Акции</a>
-            <a href="/">Новинки</a>
-            <a href="/">Матрасы</a>
-            <a href="/">Мягкая мебель</a>
-            <a href="/">Шкафы</a>
+          <div className="asside__category">
+            Категории
+            <a className="asside__link" href="/">Кухни</a>
+            <a className="asside__link" href="/">Спальни</a>
+            <a className="asside__link" href="/">Гостинные</a>
+            <a className="asside__link" href="/">Прихожие</a>
+            <a className="asside__link" href="/">Офисная мебель</a>
+            <a className="asside__link" href="/">Детская</a>
+            <a className="asside__link" href="/">Акции</a>
+            <a className="asside__link" href="/">Новинки</a>
+            <a className="asside__link" href="/">Матрасы</a>
+            <a className="asside__link" href="/">Мягкая мебель</a>
+            <a className="asside__link" href="/">Шкафы</a>
           </div>
 
         </div>
 
       </div>
 
-
-
-    </asside>
+    </div >
   )
 }
